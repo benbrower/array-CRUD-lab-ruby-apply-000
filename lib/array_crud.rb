@@ -1,9 +1,9 @@
 def create_an_empty_array
-  ary = Array.new
+  array = Array.new
 end
 
 def create_an_array
-  ary = Array.new(4)
+  array = Array.new(4)
 end
 
 def add_element_to_end_of_array(array, element)
@@ -11,7 +11,7 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
